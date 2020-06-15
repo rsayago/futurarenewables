@@ -1,0 +1,588 @@
+/**
+ * If using a CSS pre-processor, tell it to overwrite this file. If not, place
+ * your custom CSS modifications here.
+ */
+/*Controls Text Bottom*/ 
+/*Sets the grand parent container div's position to relative*/
+
+@font-face {
+	font-family: DMSans;
+	src: url(../fonts/DMSans-Regular.ttf);
+}
+
+body {
+	background-color: #f9f9f9;
+	width: 1336px;
+	margin: 0 auto;
+}
+
+/* Menu Main Navigation */
+nav[role=navigation][aria-labelledby=-menu].scrolled {
+	position: fixed;
+	height: 80px;
+	background-color: white;
+	z-index: 150;
+	padding-right: 160px;
+	-webkit-box-shadow: 0px 0px 9px 3px rgba(41,41,41,.25);
+	-moz-box-shadow: 0px 0px 9px 3px rgba(41,41,41,.25);
+	box-shadow: 0px 0px 9px 3px rgba(41,41,41,.25);
+	width: 100%;
+}
+
+nav[role=navigation][aria-labelledby=-menu] {
+	background-color: transparent;
+    border: none;
+    position: absolute;
+    padding-left: 50%;
+    z-index: 99;
+}
+ul.menu > li {
+	display: inline-block;
+}
+ul.menu > li > a.scrolled {
+	color: #3d3d3d;
+}
+ul.menu > li > a  {
+	height: 24px;
+	font-family: DMSans;
+	font-size: 14px;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.71;
+	letter-spacing: normal;
+	text-align: right;
+	color: #ffffff;
+	list-style: none;
+}
+
+ul.menu > li > a.active-trail {
+	padding-bottom: 35px;
+	border-bottom: 3px solid #f6ab22;
+}
+
+ul.menu > li > a:hover {
+	padding-bottom: 35px;
+}
+
+
+/* logo */
+
+a.logo.navbar-btn.pull-left > img.scrolled {
+	position: fixed;
+	background: url(../images/negro.png) no-repeat;
+	object-position: -9px 99px;
+	z-index: 160;
+
+}
+a.logo.navbar-btn.pull-left > img {
+	position: absolute;
+    z-index: 99;
+    padding: 15px;
+    margin-left: 80px;
+
+}
+
+div.region.region-header > a.navbar-brand {
+	display: none;
+}
+
+
+
+/* Slider Video */
+
+.views_slideshow_controls_text_next {
+  width:45px;
+  height:45px;
+  padding-top:54px;
+  position:absolute;
+  margin-top:250px;
+  overflow:hidden;
+  
+}
+.views_slideshow_controls_text_previous {
+  width:45px;
+  height:45px;
+  padding-top:54px;
+  position:absolute;
+  margin-top:250px;
+  overflow:hidden;
+  color: red;
+  
+}
+.views_slideshow_controls_text_previous {
+  background:url(../images/b-previous.png) no-repeat;
+  left:50px;
+  z-index: 99;
+  opacity: 0.0;
+}
+.views_slideshow_controls_text_next {
+  background:url(../images/b-next.png) no-repeat;
+  right:30px;
+  z-index: 99;
+  opacity: 0.0;
+}
+.views_slideshow_controls_text_pause {
+  display:none;
+}
+
+span.views_slideshow_controls_text_previous:hover {
+	opacity: 1;
+}
+
+span.views_slideshow_controls_text_next:hover {
+	opacity: 1;
+}
+
+video {
+	margin-left: 64px;
+	height: auto;
+}
+
+.views-field.views-field-field-slider-vh-text {
+	width: 736px;
+  	height: 211px;
+	font-family: DMSans;
+	font-size: 26px;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.14;
+	letter-spacing: normal;
+	z-index: 99;
+	color: #ffffff;
+	position: absolute;
+	bottom: 15%;
+	left: 20%;
+	padding: 3px;
+}
+
+div.views-field-field-slider-vh-link {
+	position: absolute;
+	bottom: 25%;
+	left: 20%;
+	z-index: 99;
+}
+
+.views-field-field-slider-vh-link a {
+	width: 192px;
+  	height: 56px;
+  	font-family: DMSans;
+  	font-size: 12px;
+  	font-weight: bold;
+  	font-stretch: normal;
+  	font-style: normal;
+  	line-height: 2;
+  	letter-spacing: 1.2px;
+  	text-align: center;
+  	color: #000000;
+  	background-color: #f6ab22;
+  	padding: 10px;
+
+}
+
+div.views-field-field-slider-vh-image {
+	position: absolute;
+	bottom: -23%;
+	right: 5%;
+	z-index: 99;
+}
+
+/* Paragraphs tabs */
+
+.block-block-content377687b1-1ac1-4213-b2ab-044361f4f0a2 {
+	margin-left: 64px;
+}
+
+h2.block-title {
+	margin-top: 120px;
+    margin-bottom: 50px;
+}
+
+.Nuestras-principales {
+  width: 382px;
+  height: 28px;
+  font-family: DMSans;
+  font-size: 24px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.17;
+  letter-spacing: normal;
+  color: #3d3d3d;
+  margin-bottom: 45px;
+}
+
+.El-origen-y-la-base {
+  width: 352px;
+  height: 396px;
+  font-family: DMSans;
+  font-size: 17px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.65;
+  letter-spacing: normal;
+  color: #3d3d3d;
+}
+
+
+.field--name-bp-text.field--type-text-long.field--label-hidden.field--item ul {
+	list-style: none; 
+	
+}
+.field--name-bp-text.field--type-text-long.field--label-hidden.field--item ul li {
+	font-family: DMSans;
+	font-size: 17px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.65;
+	letter-spacing: normal;
+	color: #3d3d3d;
+
+}
+
+.field--name-bp-text.field--type-text-long.field--label-hidden.field--item ul li::before {
+	content: "";
+	line-height: 1em;
+	width: 8px;
+	height: 8px;
+	background-color: #f6ab22;
+	float: left;
+	margin: 10px;
+	border-radius: 50%;
+}
+
+
+
+.paragraph--type--bp-simple {
+	float: left;
+	padding-left: 5%;
+}
+
+div.paragraph--type--bp-simple.paragraph--width--narrow {
+	width: 35%;
+}
+
+div.paragraph--type--bp-simple.paragraph--width--medium {
+	width: 55%;
+}
+
+
+/* Maps */
+
+.paragraph--id--41 img {
+	position: absolute;
+    margin-top: -340px;
+    background-color: white;
+    left: 170px;
+}
+
+.activo {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+}
+
+img#no {
+	position: absolute;
+    z-index: 99;
+    margin-top: -175px;
+    left: 470px;
+}
+
+img#ne {
+	position: absolute;
+    z-index: 99;
+    margin-top: -140px;
+    left: 740px;
+}
+
+img#cen {
+	position: absolute;
+    z-index: 99;
+    margin-top: -40px;
+    left: 560px;
+}
+
+img#sur {
+	position: absolute;
+    z-index: 99;
+    margin-top: 105px;
+    left: 580px;
+}
+
+.provin-pos {
+	position: absolute;
+	z-index: 50;
+	margin-top: -310px;
+	left: 105px;
+}
+
+
+.ocultar {
+	display: none;
+}
+
+/* Colaboradores */
+
+.paragraph--id--140 {
+	margin-top: 230px;
+}
+
+.paragraph--id--141 {
+	margin-top: -350px;
+    margin-left: 100px;
+}
+
+.zone-head {
+	padding-bottom: 50px;
+}
+
+.zone-title {
+	width: 134px;
+	height: 25px;
+	font-family: DMSans;
+	font-size: 19px;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	color: #3d3d3d;
+}
+
+.zone-data {
+	width: 200px;
+	padding-left: 20px;
+	border-right: 3px solid black;
+}
+/* Puntos Form */
+
+.paragraph--id--125 {
+    position: absolute;
+    z-index: 100;
+    margin-left: 335px;
+    width: 25%;
+    margin-top: -80px;
+}
+
+
+
+/* Form Styles */
+
+ .paragraph--id--123 {
+ 	margin-top: -120px;
+ 	width: 736px;
+ 	padding: 70px;
+	background-color: #f6ab22;
+	position: absolute;
+	z-index: 99;
+	right: 0;
+ }
+
+ .Envanos-un-mensaje {
+
+  width: 544px;
+  height: 64px;
+  font-family: DMSans;
+  font-size: 24px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #000000;
+
+}
+
+.Complet-name {
+  width: 280px;
+  height: 48px;
+  background-color: #ffffff;
+  border: none;
+}
+
+.Compain-name {
+	width: 232px;
+	height: 48px;
+	background-color: #ffffff;
+	border: none;
+}
+
+.Telefono {
+	width: 208px;
+	height: 48px;
+	background-color: #ffffff;
+	border: none;
+}
+.mail-form {
+	width: 304px;
+	height: 48px;
+	background-color: #ffffff;
+	border: none;
+}
+.message-form {
+	
+	height: 169px;
+	background-color: #ffffff;
+	border: none;
+}
+.form-checkbox {
+	width: 17px;
+	height: 17px;
+}
+
+.I-have-read-and-acce {
+
+	width: 288px;
+	height: 24px;
+	font-family: DMSans;
+	font-size: 15px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.6;
+	letter-spacing: normal;
+	color: #000000;
+	position: absolute;
+	margin-top: -30px;
+	margin-left: 30px;
+	width: 300px;
+
+}
+
+.paragraph--id--123 input {
+	border: none;
+}
+
+
+
+.paragraph--id--123 textarea {
+	resize: none;
+    border: none;
+}
+
+.paragraph--id--123 div.text-count-message {
+	float: right;
+	margin-right: 10px;
+	width: 121px;
+	height: 28px;
+	font-family: DMSans;
+	font-size: 12px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 2.33;
+	letter-spacing: normal;
+	text-align: right;
+	color: #3d3d3d;
+}
+
+.paragraph--view-mode--default.paragraph--id--123 #edit-actions {
+	margin-top: 50px;
+}
+
+.paragraph--view-mode--default.paragraph--id--123 button#edit-submit {
+	width: 192px;
+	height: 56px;
+	background-color: #000000;
+	font-family: Ruda;
+	font-size: 12px;
+	font-weight: 900;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 2;
+	letter-spacing: 1.2px;
+	text-align: center;
+	color: #ffffff;
+	float: right;
+}
+
+/* Contacto Block */
+
+
+.paragraph--id--124 {
+	width: 1325px;
+	height: 480px;
+	background-color: #000000;
+	padding-top: 170px;
+	margin-top: -10px;
+	padding-bottom: 80px;
+}
+
+.Contacto {
+
+	width: 146px;
+	height: 48px;
+	font-family: DMSans;
+	font-size: 32px;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.5;
+	letter-spacing: normal;
+	color: #ffffff;
+}
+
+.Madrid {
+
+	width: 69px;
+	height: 26px;
+	font-family: DMSans;
+	font-size: 20px;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	color: #ffffff;
+
+}
+
+.Marqus-de-Villam {
+
+	width: 211px;
+	height: 120px;
+	font-family: DMSans;
+	font-size: 16px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.5;
+	letter-spacing: normal;
+	color: #ffffff;
+
+}
+
+.Sevilla {
+
+	width: 62px;
+	height: 26px;
+	font-family: DMSans;
+	font-size: 20px;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	color: #ffffff;
+
+}
+
+.Parque-Empresarial-L {
+
+	width: 256px;
+	height: 144px;
+	font-family: DMSans;
+	font-size: 16px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.5;
+	letter-spacing: normal;
+	color: #ffffff;
+
+}
+
