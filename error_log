@@ -738,3 +738,10 @@ WHERE (s.source IN (:db_condition_placeholder_0)) AND (s.context IN (:db_conditi
 #24 /home/wt3kyj33/public_html/d8-stage.futurarenewables.com/core/lib/Drupal/Core/DrupalKernel.php(708): Stack\StackedHttpKernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
 #25 /home/wt3kyj33/public_html/d8-stage.futurarenewables.com/index.php(19): Drupal\Core\DrupalKernel->handle(Object(Symfony\Component\HttpFoundation\Request))
 #26 {main}
+[16-Jun-2020 07:10:41 UTC] PHP Fatal error:  Uncaught Error: Class 'Drupal\Composer\Plugin\Scaffold\Handler' not found in /home/wt3kyj33/public_html/d8-stage.futurarenewables.com/vendor/drupal/core-composer-scaffold/Plugin.php:137
+Stack trace:
+#0 /home/wt3kyj33/public_html/d8-stage.futurarenewables.com/vendor/drupal/core-composer-scaffold/Plugin.php(112): Drupal\Composer\Plugin\Scaffold\Plugin->handler()
+#1 [internal function]: Drupal\Composer\Plugin\Scaffold\Plugin->postPackage(Object(Composer\Installer\PackageEvent))
+#2 phar:///opt/cpanel/composer/bin/composer/src/Composer/EventDispatcher/EventDispatcher.php(176): call_user_func(Array, Object(Composer\Installer\PackageEvent))
+#3 phar:///opt/cpanel/composer/bin/composer/src/Composer/EventDispatcher/EventDispatcher.php(116): Composer\EventDispatcher\EventDispatcher->doDispatch(Object(Composer\Installer\PackageEvent))
+#4 phar:///opt/cpanel/composer/bin/composer/src/Composer/Installer.php(615): Composer\EventDispatcher\EventDispatcher->dispatchPackageEvent('post-package-in...', true, Object(Composer\Depen in /home/wt3kyj33/public_html/d8-stage.futurarenewables.com/vendor/drupal/core-composer-scaffold/Plugin.php on line 137
